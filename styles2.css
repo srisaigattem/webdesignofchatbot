@@ -1,0 +1,92 @@
+h1{
+    text-align: center;
+    background-color:#e3e9ee ;
+    color:#233e69;
+    margin: 60;
+    margin-right: 100;
+}
+body{
+    /* The image used */
+    background-image: url("bd.jpg");
+    
+    /* Add the blur effect */
+    
+    
+  }
+.Chat {
+    width: 40%;
+    height: 350px;
+    border: 1px solid black;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 10px;
+    padding-top: 10px;
+    background-color: transparent;
+    border-radius: 20px;
+    overflow: auto;
+}
+.new{
+    background: #e3e9ee;
+  padding: 10px;
+  border-radius: 10px;
+  display: inline-block;
+  margin: 5px;
+  color: rgb(7, 7, 7);
+  border: 1px white solid;
+  width: 50%;
+  text-align: left;
+  margin-top: 40px;
+}
+.bot_msg {
+    background: #e3e9ee;
+  padding: 10px;
+  border-radius: 10px;
+  display: inline-block;
+  margin: 5px;
+  color: rgb(7, 7, 7);
+  border: 1px white solid;
+  width: 50%;
+  text-align: left;
+  margin-top: 40px;
+  }
+  
+.newcls{
+    margin-right: 50%;
+    margin-left: 30%;
+    height: 40px;
+    width: 40%;
+    border-radius: 10px;
+}
+
+.user_msg {
+    background: linear-gradient(45deg, black, transparent);
+    padding: 10px;
+    color: white;
+    border-radius: 10px;
+    display: inline-block;
+    margin-top: 40px;
+    border: 1px black solid;
+    text-align: left;
+    width: 50%;
+    margin-left: 70%;
+}
+  
+  *,
+::after,
+::before {
+    box-sizing: border-box;
+}
+  
+  
+.input {
+    background: linear-gradient(45deg, #e3e9ee, transparent);
+    padding: 10px;
+    border-radius: 25px;
+}
+.button{
+    background: linear-gradient(45deg, #033a66, transparent);
+    color: #033a66;
+    height: 20px;
+    width: 10;
+    border-radius: 25px;
+}

@@ -1,0 +1,56 @@
+
+.Center{
+    margin: auto;
+    width:50%;
+    border: 5px black;
+    padding: 10px;
+}
+h1{
+    text-align: center;
+    background-color:#e3e9ee ;
+    color:#233e69;
+    margin: 60;
+    margin-right: 100;
+}
+p{
+    color: whitesmoke;
+    text-align: center;
+    size: 50;
+}
+body{
+    /* The image used */
+    background-image: url("bd.jpg");
+    
+    /* Add the blur effect */
+    
+    
+  }
+  
+  /* Position text in the middle of the page/image */
+  .bg-text {
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+    color: white;
+    font-weight: bold;
+    border: 3px solid #f1f1f1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 80%;
+    padding: 20px;
+    text-align: center;
+  }
+.button{
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
